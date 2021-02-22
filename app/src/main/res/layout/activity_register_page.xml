@@ -7,6 +7,6 @@
         <EditText android:layout_marginTop="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/email" android:inputType="textEmailAddress"/>
         <EditText android:layout_marginTop="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/password" android:inputType="textPassword"/>
         <CheckBox android:layout_marginTop="50dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="@string/light" android:textStyle="italic" android:text="@string/conditions"/>
-        <Button android:layout_width="219dp" android:layout_height="33dp" android:layout_marginTop="30dp" android:background="@drawable/round_button" android:layout_gravity="center" android:text="@string/sign_in" android:textColor="@color/dustyWhite"/>
+        <Button android:id="@+id/btnRegister" android:layout_width="219dp" android:layout_height="33dp" android:layout_marginTop="30dp" android:background="@drawable/round_button" android:layout_gravity="center" android:text="@string/sign_in" android:textColor="@color/dustyWhite"/>
     </LinearLayout>
 </LinearLayout>
